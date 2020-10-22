@@ -1,0 +1,22 @@
+footer {
+  color: white;
+  margin-top: 100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */

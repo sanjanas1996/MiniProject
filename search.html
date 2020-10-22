@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg  navbar-dark">
+        <img src="summer.gif" style="width:125px;height:90px;opacity:0.7;border:1px yellow solid; border-radius: 40px ">
+        <h3 class="font-weight-bold p-3 m-4 "style="color:yellow;border:1px yellow solid; border-radius: 40px"> MyWeather</h3>
+       
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mx-auto">
+                <li class="nav-item ">
+                    <a class="nav-link  " href="home.html"><h3 class="font-weight-bold p-3 m-4 "style="color:yellow;border:1px yellow solid; border-radius: 40px"> Home</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="currentlocation.html"><h3 class="font-weight-bold p-3 m-4 "style="color:yellow;border:1px yellow solid; border-radius: 40px">Current Location</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="search.html"><h3 class="font-weight-bold p-3 m-4 "style="color:yellow;border:1px yellow solid; border-radius: 40px"> Search Cities</h3></a>
+                </li>
+
+        </div>
+    </nav>
+    
+    <div class="jumbotron mx-auto mt-5 w-50 justify-content-center" >
+        
+            <div style="margin-left:180px">
+                        <input type="text" id="ip1" class="form-control-sm border border-1 border-danger  ">
+                        <button type="button" id="search"class="btn btn-success mx-auto">Search</button>
+                    </div>
+    </div>
+    
+
+
+<div class="row d-flex flex flex-wrap" style="margin-top:25px">
+        <div id="div12"class="j-place mx-auto jumbotron col-4  " >
+
+                
+<h4> City</h4>
+
+
+            </div>
+            <div id="div13" class="w-50 mx-auto col-4 jumbotron" >
+    <h4> Weather Forecast </h4>
+            </div>
+</div>
+<footer class="container-fluid footer1 fixed-bottom" >
+    <div class="container-sm ">
+        <div class="row bg-light  ">
+            <div class="col-md-4 text-center  text-dark text-md-center">
+                <h5 class="font-weight-bold mt-3 mb-4 text-warning">MyWeather</h5>
+                <!-- <ul class="list-unstyled ">
+                    <li><a href="#!">London</a></li>
+                    <li><a href="#!">California</a></li>
+                    <li><a href="#!">Australia</a></li>
+                    <li><a href="#!">Dubai</a></li>
+                </ul> -->
+                <p>
+                  Website developed by the JavaFrtp September 2020 Trainees at Cybage
+                </p>
+            </div>
+
+
+
+            <div class="col-md-4 text-center text-dark text-md-center">
+                <h5 class="font-weight-bold mt-3 mb-4 text-uppercase">ContactUs</h5>
+                <!-- <ul class="list-unstyled ">
+                    <li><a href="#!">Delhi</a></li>
+                    <li><a href="#!">Mumbai</a></li>
+                    <li><a href="#!">Kolkata</a></li>
+                    <li><a href="#!">Banglore</a></li>
+                  
+                </ul> -->
+                <p> Reach us at sanjanas@cybage.com
+                  or contact for more info:(+91)8669028729.
+                </p>
+            </div>
+
+
+            `
+            <div class="col-md-3 text-center    text-md-center">
+                <h5 class="font-weight-bold mt-3 mb-4  text-dark">Dev Team active in</h5>
+                <ul class="list-unstyled ">
+                    <li><a href="#!" class="text-dark">Pune(MH)</a></li>
+                    <li><a href="#!" class="text-dark" >Gandhinagar(GJ)</a></li>
+                    <li><a href="#!" class="text-dark">Hyderabad(TL)</a></li>
+                    <li><a href="#!" class="text-dark">Nizamabad</a></li>
+                </ul>
+            </div>
+        </div>
+       
+    </div>
+    <div class="row bg-primary">
+      <div class="col-md-12 copy">
+        <p class="text-center text-white">&copy; Copyright 2020 Cybage.  All rights reserved.</p>
+      </div>
+    </div>
+</footer>
+    
+
+
+
+
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</body>
+
+</html>
